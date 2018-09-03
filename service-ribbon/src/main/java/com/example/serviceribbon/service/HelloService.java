@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class HelloService {
+public class HelloService implements HelloServiceInt{
     @Autowired
     RestTemplate restTemplate;
 
@@ -16,6 +16,6 @@ public class HelloService {
     }
 
     public String hiError(String name) {
-        return "hi,"+name+",sorry,error!";
+        return restTemplate.getForObject("http://SERVICE-HELLO/hi?name="+name,String.class);
     }
 }

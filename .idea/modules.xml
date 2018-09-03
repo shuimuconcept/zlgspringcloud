@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EwmSettleBoot/EwmSettleBoot.iml" filepath="$PROJECT_DIR$/EwmSettleBoot/EwmSettleBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkengine/checkengine.iml" filepath="$PROJECT_DIR$/checkengine/checkengine.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/first/first.iml" filepath="$PROJECT_DIR$/first/first.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-zipkin/server-zipkin.iml" filepath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-batch/service-batch.iml" filepath="$PROJECT_DIR$/service-batch/service-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-hello/service-hello.iml" filepath="$PROJECT_DIR$/service-hello/service-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hi/service-hi.iml" filepath="$PROJECT_DIR$/service-hi/service-hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-miya/service-miya.iml" filepath="$PROJECT_DIR$/service-miya/service-miya.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-batch/spring-batch.iml" filepath="$PROJECT_DIR$/spring-batch/spring-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osjp-spring-batch-example/spring-batch-example.iml" filepath="$PROJECT_DIR$/osjp-spring-batch-example/spring-batch-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbatch/springbatch.iml" filepath="$PROJECT_DIR$/springbatch/springbatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/zlgspringcloud.iml" filepath="$PROJECT_DIR$/zlgspringcloud.iml" />
     </modules>
   </component>

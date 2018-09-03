@@ -2,6 +2,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
 server:
   port: 8769
 spring:
@@ -12,6 +15,6 @@ zuul:
     api-a:
       path: /api-a/**
       serviceId: service-ribbon
-    api-b:
+    api-sdfa:
       path: /api-b/**
       serviceId: service-feign

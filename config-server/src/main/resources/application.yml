@@ -4,8 +4,8 @@ spring:
       server:
         git:
           password: your password
-          searchPaths: respo
-          uri: https://github.com/forezp/SpringcloudConfig/
+          searchPaths: config-files
+          uri: https://github.com/shuimuconcept/zlgspringcloud
           username: your username
       label: master
   application:

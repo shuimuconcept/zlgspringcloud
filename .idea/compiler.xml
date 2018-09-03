@@ -6,31 +6,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="checkengine" />
         <module name="config-client" />
         <module name="config-server" />
-        <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="EwmSettleBoot" />
+        <module name="first" />
         <module name="server-zipkin" />
+        <module name="service-batch" />
         <module name="service-feign" />
+        <module name="service-hello" />
         <module name="service-hi" />
         <module name="service-miya" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
+        <module name="spring-batch" />
+        <module name="spring-batch-example" />
+        <module name="springbatch" />
+        <module name="springbatch (1)" />
         <module name="zlgspringcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="batch" target="1.8" />
+      <module name="checkengine" target="1.8" />
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="config-server-new" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="EwmSettleBoot" target="1.7" />
+      <module name="first" target="1.8" />
       <module name="server-zipkin" target="1.8" />
+      <module name="service-batch" target="1.8" />
       <module name="service-feign" target="1.8" />
+      <module name="service-hello" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-miya" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-zuul" target="1.8" />
+      <module name="spring-batch" target="1.8" />
+      <module name="spring-batch-example" target="1.6" />
+      <module name="springbatch" target="1.8" />
+      <module name="springbatch (1)" target="1.8" />
+      <module name="test" target="1.8" />
       <module name="zlgspringcloud" target="1.5" />
     </bytecodeTargetLevel>
   </component>
